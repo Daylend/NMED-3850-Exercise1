@@ -1,0 +1,45 @@
+.navbar-bg {
+    background-color: lightblue;
+}
+
+.navbar .title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-inner .link{
+    color: black;
+}
+
+.navbar-bg{
+    background-color: #FF4136;
+}
+
+.toolbar-bottom{
+    background-color: white;
+}
+
+.waldoimg{
+    display: block;
+    margin: 0px auto;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.page-content {
+    background-color: #111111;
+}
+
+.tab-link-active {
+    border: 1px solid grey;
+    border-style: inset;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+        />
+        <link rel="stylesheet" href="css/framework7.bundle.min.css" />
+        <link rel="stylesheet" href="css/framework7-icons.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Where's Waldo?</title>
+    </head>
+    <body>
+        <div id="app">
+            <div class="view view-main">
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="left">
+                        </div>
+                        <div class="title">Where's Waldo?</div>
+                        <div class="right">
+                            <a class="link popover-open" href="#" data-popover=".popover-links"><i class="f7-icons">ellipsis_vertical</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page" data-name="home">
+                    <div class="page-content">
+                        <img id="waldoimg" class="waldoimg" src="img/waldo1.jpg" onclick="waldoClick(event)"/>
+                    </div>
+                    <div class="toolbar tabbar toolbar-bottom">
+                        <div class="toolbar-inner">
+                            <a href="/" class="tab-link tab-link-active home">Carnival</a>
+                            <a href="/page2/" class="tab-link page2">Track Meet</a>
+                            <a href="/page3/" class="tab-link page3">Island</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popovers -->
+        <div class="popover popover-links">
+            <div class="popover-inner">
+                <div class="list">
+                    <ul>
+                        <li><a class="list-button popover-close item-link" href="#" onclick="resetProgress()">Reset Progress</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script
+            type="text/javascript"
+            src="js/framework7.bundle.min.js"
+        ></script>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
