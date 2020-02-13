@@ -1,14 +1,2 @@
-# A Blank PhoneGap App
-
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+# Where's Waldo?
+My app theme was "challenge", so I made a Where's Waldo app. Works on PC and mobile.
